@@ -1,0 +1,45 @@
+.logo{
+    width: 250px;
+    height: 70px;
+    display: inline-block;
+}
+header{
+    position: fixed;
+    background-color: white;
+    width:100%;
+    z-index:3;
+}
+.menu{
+    display: inline-block;
+    float: right;
+    margin:25px;
+}
+.menu>li{
+    display: inline-block;
+    margin-right:20px;
+
+}
+
+.menu a{
+    color:rgb(189, 184, 184);
+    font-size: 18px;
+    text-decoration: none;
+}
+.menu hr{
+    margin-top:10px;
+    height: 3px;
+    background-color: rgb(107, 196, 107);
+    border: none;
+    visibility: hidden;
+}
+.menu li:hover  a{
+    color:rgb(107, 196, 107);
+}
+.menu li:hover  hr{
+    visibility: visible;
+}
+.nav{
+    margin:0px auto;
+    width:80%;
+    
+}

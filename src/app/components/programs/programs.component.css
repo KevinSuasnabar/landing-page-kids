@@ -1,0 +1,54 @@
+#our-programs{
+    background-image: url("../../../assets/images/ourProgbg.jpg");
+    padding:120px 60px;
+    color:grey;
+}
+.program-boxes{
+    margin-top: 80px;
+ 
+}
+.prog-box{
+    width:33.3%;
+    background-color: beige; 
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+   
+}
+.prog-box:nth-child(2){
+    margin-left:30px;
+    margin-right: 30px;
+}
+.prog-info{
+    padding: 30px;
+    background-color: beige;
+}
+.prog-info h2 a{
+color: rgba(42, 109, 42);
+}
+.prog-info h2 a:hover{
+    color:rgb(109, 50, 121);
+    }
+.prog-info a{
+    text-decoration: none;
+}
+.prog-img{
+    overflow: hidden;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    
+}
+.prog-img img{
+    box-sizing: border-box;
+    width: 100%;
+    transition: all 0.5s ease-in;
+
+}
+.prog-img:hover img{
+    transform: scale(1.1);
+}
+.prog-info a:hover{
+    color:rgba(42, 109, 42);
+}
+.prog-info p:nth-child(2){
+    padding:30px 0px;
+}

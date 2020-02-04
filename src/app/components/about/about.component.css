@@ -1,0 +1,77 @@
+#about{
+    padding: 100px 50px ;
+    background-color: #f6f6f6;
+    color: grey
+}
+.container{
+    width:80%;
+    margin:0 auto;
+
+}
+.about-info{
+  
+    margin-top:40px;
+}
+.about-context{
+ 
+    width:40%;
+    margin-left:140px;
+    
+}
+.percent-text{
+position: relative;
+}
+.percent-text p{
+    display: inline-block;
+   padding-bottom: 10px;
+}
+@keyframes progress-move-summer{
+0% {width:80%}
+25%{width:40%}
+50%{width:60%}
+75%{width:0%}
+100%{width:60%}
+}
+@keyframes progress-move-preschool{
+    0% {width:50%}
+    25%{width:40%}
+    50%{width:20%}
+    75%{width:50%}
+    100%{width:30%}
+    }
+.percent-text p:nth-child(2){
+
+    position: absolute;
+    right:0;
+}
+.percent-text span {
+   text-align: right;
+}
+.progress{
+    margin-top:40px;
+}
+.percent{
+  
+    height: 3px;
+    background-color: grey;
+    border-radius: 6px;
+ 
+}
+.summer{
+    animation-name: progress-move-summer;
+    animation-duration: 1.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.preschoolProg{
+    animation-name: progress-move-preschool;
+    animation-duration: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.colorful{
+    height: 3px;
+    width:75%;
+    background:linear-gradient(to right,rgb(211, 37, 37) 0%, orange 100%);
+  
+}

@@ -1,0 +1,105 @@
+#offers{
+   
+    width:80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.section-heading{
+    text-align: center;
+    
+}
+.section-heading h1{
+    font-size:60px;
+    margin-bottom: 20px;
+    color:black;
+}
+.section-heading p{
+    line-height: 24px;
+    color: grey;
+}
+
+.offer{
+   
+    text-align:center;
+    width: 33.3%;
+    margin-top:50px;
+    position: relative;
+}
+.offer-icon{
+    color: green;
+    font-size: 70px;
+    margin-top:30px;
+}
+.flex{
+  display: flex;  
+}
+
+.offer:nth-child(2),.offer:nth-child(5){
+    margin-left:40px;
+    margin-right:40px;
+}
+.offer-text h2{
+    
+    margin:20px;
+}
+.big-circle{
+    width:70px;
+    height:70px;
+   
+    border-radius:50%;
+    background-color:rgba(225, 130, 238, 0.13);
+    position: absolute;
+    top:43px;
+    left:178px;
+}
+.sml-circle{
+    width:40px;
+    height:40px;
+    position: absolute;
+    border-radius:50%;
+    background-color:rgba(168, 130, 238, 0.13);
+    
+}
+.begin-top-right{
+    top:10px;
+    transition: all 0.3s ease-in-out;
+    right:97px;
+}
+.begin-top-left{
+    top:10px;
+    left:110px;
+    transition: all 0.3s ease-in-out;
+}
+.begin-bottom-right{
+  
+    top:90px;
+    right:97px;
+    transition: all 0.3s ease-in-out;
+}
+.begin-bottom-left{
+    top:90px;
+    left:110px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.offer:hover .begin-top-right{
+    top:115px;
+ 
+    right:97px;
+}
+.offer:hover .begin-top-left{
+    top:115px;
+    left:110px;
+  
+}
+.offer:hover .begin-bottom-right{
+   
+    top:10px;
+    right:97px;
+}  
+.offer:hover .begin-bottom-left{
+   
+    top:10px;
+    left:110px
+}  

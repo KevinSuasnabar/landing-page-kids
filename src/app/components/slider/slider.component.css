@@ -1,0 +1,62 @@
+#slider{
+  
+    background-image: url("../../../assets/images/sliderbg.jpg");
+    background-size: cover;
+   
+ }
+ .slider-context{
+     display: flex;
+     padding:245px 0px;
+ }
+ 
+ 
+ .text{
+     margin-left:30px;
+ }
+ .text p{
+     font-size:80px;
+ }
+ 
+ .text span{
+     font-weight:bold;
+ 
+ }
+ .social-media{
+     margin-right:100px
+ }
+ .social-media ul{
+ margin-top:60px;
+ }
+ .social-media ul li{
+     list-style: none;
+     margin-top:30px;
+     
+ }
+ .social-media ul li a{
+ text-decoration: none;
+ color:grey;
+ font-size:20px;
+ transition: all 1.5s linear;
+ 
+ }
+ .social-media ul li:hover a{
+     color:green;
+ }
+ .learnBtn{
+     background:green;
+     width:100px;
+     padding:20px 70px;
+    border-radius:44px;
+    margin-top:30px;
+    transition: all 0.5s ease-in-out;
+    
+ }
+ .learnBtn:hover {
+     background-color: orange;
+ }
+ .learnBtn a{
+     color:white;
+     font-size:18px;
+     font-weight: bold;
+     text-decoration: none;
+ }
